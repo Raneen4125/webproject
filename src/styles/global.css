@@ -1,0 +1,42 @@
+:root {
+  --beige: #f8f3eb;     /* Soft cream background */
+  --brown: #6b4e3d;     /* Rich chocolate brown */
+  --light-brown: #e0d5c9; /* Light brown for cards */
+  --pink: #f4e6e8;      /* Soft blush pink for accents */
+  --text-dark: #2e2e2e;
+  --text-light: #666;
+  --border-color: #e0d5c9;
+}
+
+body {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--beige);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+  color: var(--brown);
+}
+
+a {
+  text-decoration: none;
+  color: var(--brown);
+}
+
+.page-content {
+  padding: 3rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hover-shadow {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}

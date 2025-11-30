@@ -1,0 +1,71 @@
+.elegant-header {
+  background-color: #6b4e3d;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.brand-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.navbar-content {
+  margin-top: 0.8rem;
+}
+
+.nav-row {
+  display: flex;
+  gap: 1.8rem;
+  flex-wrap: wrap;
+}
+
+.nav-link-custom {
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.nav-link-custom:hover,
+.nav-link-custom.active {
+  color: #f4e6e8 !important;
+}
+
+.cart-icon-button {
+  background: none;
+  border: 2px solid #f4e6e8;
+  color: #f4e6e8;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.cart-icon-button:hover {
+  background-color: #f4e6e8;
+  color: #6b4e3d;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #ff3b30;
+  color: white;
+  font-size: 0.7rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
