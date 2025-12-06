@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Raneen4125/webproject/static/css/main.5a0bd619.css",
+    "main.js": "/Raneen4125/webproject/static/js/main.a9ac2ad2.js",
+    "static/js/453.792d799a.chunk.js": "/Raneen4125/webproject/static/js/453.792d799a.chunk.js",
+    "static/media/Hoop.jpg": "/Raneen4125/webproject/static/media/Hoop.9b95cc20e6709d3762eb.jpg",
+    "static/media/model.jpg": "/Raneen4125/webproject/static/media/model.499d45a6d7aa7eba97f8.jpg",
+    "static/media/image.png": "/Raneen4125/webproject/static/media/image.d372f0343ed3331fc04b.png",
+    "static/media/image2.png": "/Raneen4125/webproject/static/media/image2.d76cbd18a267ed75a30b.png",
+    "static/media/image3.png": "/Raneen4125/webproject/static/media/image3.d46f68b30271d3c76686.png",
+    "static/media/Tiffany.jpg": "/Raneen4125/webproject/static/media/Tiffany.ade7f72d269daac268f8.jpg",
+    "static/media/diamond.jpeg": "/Raneen4125/webproject/static/media/diamond.03fa62a6635402e75e2d.jpeg",
+    "static/media/Aquamarine.jpg": "/Raneen4125/webproject/static/media/Aquamarine.0d97139824380113193a.jpg",
+    "static/media/pearl.jpg": "/Raneen4125/webproject/static/media/pearl.b13af0666e7ff8eda0b2.jpg",
+    "static/media/emeraldnecklace.jpg": "/Raneen4125/webproject/static/media/emeraldnecklace.30eefb3e5b2de62cd092.jpg",
+    "static/media/about2.jpg": "/Raneen4125/webproject/static/media/about2.093b7b2d0fefab080cf1.jpg",
+    "static/media/Gemstoneheart.jpeg": "/Raneen4125/webproject/static/media/Gemstoneheart.43466fe1eb76b5e43676.jpeg",
+    "static/media/Emerald.jpeg": "/Raneen4125/webproject/static/media/Emerald.dadfc61867d9a54b0cbd.jpeg",
+    "static/media/ruby.jpeg": "/Raneen4125/webproject/static/media/ruby.e3a57f1e03805ed7e96d.jpeg",
+    "index.html": "/Raneen4125/webproject/index.html",
+    "main.5a0bd619.css.map": "/Raneen4125/webproject/static/css/main.5a0bd619.css.map",
+    "main.a9ac2ad2.js.map": "/Raneen4125/webproject/static/js/main.a9ac2ad2.js.map",
+    "453.792d799a.chunk.js.map": "/Raneen4125/webproject/static/js/453.792d799a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a0bd619.css",
+    "static/js/main.a9ac2ad2.js"
+  ]
+}
