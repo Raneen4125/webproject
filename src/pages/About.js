@@ -1,32 +1,54 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import '../styles/About.css';
+
+// Import your images
+import about1 from '../assets/about1.jpg'; 
+import about2 from '../assets/about2.jpg'; 
+import about3 from '../assets/about3.jpg'; 
 
 const About = () => {
   return (
     <Container className="about-container py-5">
       <div className="about-content text-center">
-        <h1 className="about-title">Crafted in Elegance, Worn with Confidence</h1>
+        <h1 className="about-title">ABOUT US</h1>
 
-        <div className="about-text" style={{ maxWidth: '800px', margin: '0 auto' }}>
+        {/* Hero Image */}
+        <div className="about-hero-image mt-4">
+          <img src={about1} alt="About Us Hero" style={{ width: '70%', maxHeight: '400px', objectFit: 'cover' }} />
+        </div>
+      
+        <div className="mt-5" style={{ maxWidth: '800px', margin: '0 auto' }}>
           <p>
-            Since our founding in 2020, <strong>Lustreva Jewelry Collection</strong> has redefined modern luxury through timeless design, ethical craftsmanship, and an unwavering commitment to excellence.
+            <strong>Lustreva</strong> is over 30 years old. The beginning of its work dates back to 1967, a workshop was opened on via dei Piatti in Milan, in which only 15 people worked. Over time, thanks to the excellent quality of products and the commercial intuition of the management, Lustreva has grown into a large international organization. Today, the company employs more than 200 people.
           </p>
 
-          <p>
-            Every piece in our collection is thoughtfully designed in-house and meticulously handcrafted using only the finest ethically sourced gemstones, recycled gold, and conflict-free diamonds—because beauty should never come at the cost of conscience.
-          </p>
-
-          <p>
-            What sets us apart? It’s not just the materials—it’s the <em>meaning</em> behind them. At Lustreva, we believe jewelry is more than adornment; it’s a legacy, a memory, a whispered promise. That’s why each creation is infused with intention, artistry, and a story worth passing down through generations.
-          </p>
-
-          <div className="about-why-us mt-4 p-4">
-            <strong>Why choose Lustreva?</strong><br />
-            ✦ Curated collections inspired by heritage and innovation<br />
-            ✦ Ethically sourced, sustainably crafted<br />
-            ✦ Lifetime care and personalized service<br />
-            ✦ Designed for the woman who dares to shine—quietly, confidently, unmistakably.
+          <div className="mt-4">
+            <Row>
+              <Col md={6}>
+                <div className="about-image-wrapper mb-4">
+                  <img src={about2} alt="Model in White Dress" style={{ width: '100%', borderRadius: '8px' }} />
+                </div>
+                 <div className="about-image-wrapper mt-4">
+                  <img src={about3} alt="Pearl Earrings" style={{ width: '80%', borderRadius: '8px' }} />
+                </div>
+              </Col>
+              <Col md={6}>
+                <div className="about-text-block">
+                  <p>
+                    The company owes its name to an elegant breed of horses. Lustreva's style is easily recognizable — it is a rounded, original and at the same time simple design, massive gold and large multicolored stones.
+                  </p>
+                  <p>
+                    All Lustreva products are mass-produced and designed for everyday wear, but traditional manual production and the highest quality of products make each piece of jewelry uniquely elegant.
+                  </p>
+                  <p>
+                    Lustreva is called a kind of pret-a-porter in the jewelry art — the brand has filled a niche that existed between the exclusive jewelry of famous jewelry houses and products designed for the mass consumer.
+                  </p>
+                </div>
+              </Col>
+            </Row>
           </div>
         </div>
       </div>

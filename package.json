@@ -1,7 +1,8 @@
 {
-  "name": "webproject",
+  "name": "jewelry",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Raneen4125/webproject",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -15,11 +16,14 @@
     "react-router-dom": "^7.9.6",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+    
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,8 +45,8 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.3.3",
     "autoprefixer": "^10.4.22",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.17"
   }

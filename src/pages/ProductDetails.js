@@ -32,18 +32,24 @@ const ProductDetails = () => {
           <p style={{ fontWeight: '500', fontSize: '1.1rem' }}>{product.description}</p>
           <h3 className="text-dark my-4">${product.price.toLocaleString()}</h3>
           <Button
-            className="me-3 mb-2"
+              className="btn-elegant rounded-pill px-5 py-2"
+             variant="light"
             style={{
-              backgroundColor: '#d4af37',
-              borderColor: '#d4af37',
-              color: '#000',
-              fontWeight: '600'
+            background:' #6b4e3d' , 
+             color:' #f8f3eb !important', 
+             border: '1.5px solid #6b4e3d !important',
             }}
             onClick={() => addToCart(product)}
           >
             Add to Cart
           </Button>
           <Button
+           className="btn-elegant rounded-pill px-5 py-2"
+          style={{
+            background:' #6b4e3d' , 
+             color:' #f8f3eb !important', 
+             border: '1.5px solid #6b4e3d !important',
+            }}
             variant="outline-secondary"
             onClick={() => navigate('/products')}
           >

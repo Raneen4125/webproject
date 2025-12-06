@@ -64,6 +64,7 @@ const Credit = () => {
   }, [showSuccessAlert]);
 
   const handleClearCart = () => {
+
     if (window.confirm('Are you sure you want to clear your cart?')) {
       clearCart();
     }
@@ -79,6 +80,7 @@ const Credit = () => {
           <p>Thank you for your purchase! A receipt was sent to your email.</p>
         </Alert>
       )}
+      
 
       {cart.length === 0 ? (
         <div className="text-center py-5">

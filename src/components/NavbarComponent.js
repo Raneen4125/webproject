@@ -26,7 +26,7 @@ const NavbarComponent = () => {
     <header className="elegant-header">
       <Container>
         <div className="brand-row">
-          <Link to="/" className="brand-text">
+          <Link to="/" className="brand-text"> 
             Lustreva
           </Link>
         </div>
